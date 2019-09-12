@@ -7,29 +7,22 @@ In the biological neuron, the point of this cell is to take in some input (in th
 
 Neurons exhibit an all-or-nothing behavior :
 
-if the combination of inputs exceeds a certain threshold, then an output signal is produced (the neuron “fires”)
+* if the combination of inputs exceeds a certain threshold, then an output signal is produced (the neuron “fires”)
 In this case, output travels along the axon to the axon terminals. These are connected to the dendrites of other neurons through the synapse.
-If the combination falls short of the threshold, then the neuron doesn’t produce any outpu (“doesn’t fire”).
-If were to construct a very simple mathematical model to represent this bio neuron, it should follow from its modus operandis:
+* if the combination falls short of the threshold, then the neuron doesn’t produce any outpu (“doesn’t fire”).
 
-In this model, there are:
-n binary inputs (usually given as a vector) and
-exactly the same number of weights
+The Perceptron neuron model has:
+* n binary inputs (usually given as a vector) and
+* exactly the same number of weights
 
 We multiply and sum them up. Result is z , also called pre-activation.
-
 There is another term, called the bias (a constant factor).
-
-(to make the math simpler → incorporate it into the weight vector as
-
-and set
-
-for all inputs):
 
 After taking the weighted sum, we apply an activation function to this and produce an activation a.
 
-if the input is greater than or equal to 0, then we produce an output of 1.
-If input is lower than 0, we produce an output of 0.
+. if the input is greater than or equal to 0, then we produce an output of 1.
+. If input is lower than 0, we produce an output of 0.
+
 This is the mathematical model for a single neuron — most fundamental unit for a neural network.
 
 In comparison with the bio neuron:
