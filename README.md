@@ -1,5 +1,6 @@
 # Perceptron
 Perceptron code in Python with comments
+https://github.com/jorgesleonel/Perceptron/blob/master/Perceptron.ipynb
 
 Perceptrons and artificial neurons actually date back to 1958. Frank Rosenblatt was a psychologist trying to solidify a mathematical model for biological neurons. To better understand the motivation behind the perceptron, we need a superficial understanding of the structure of biological neurons in our brains.
 
