@@ -30,6 +30,7 @@ In comparison with the bio neuron:
 → the weights model the synapse.
 → Combine the weighted inputs by summing and send that weighted sum to the activation function. This acts as the response function where 0 means the neuron didn’t produce an output.
 → inputs and outputs are also binary, which is in accordance with the biological model.
+
 Since the output of a perceptron is binary, we can use it for binary classification, i.e., an input belongs to only one of two classes. The classic examples used to explain what perceptrons can model are logic gates.
 
 ***
