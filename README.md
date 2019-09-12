@@ -25,6 +25,8 @@ After taking the weighted sum, we apply an activation function to this and produ
 
 This is the mathematical model for a single neuron — most fundamental unit for a neural network.
 
+![perceptron](https://miro.medium.com/max/2870/1*n6sJ4yZQzwKL9wnF5wnVNg.png)
+
 In comparison with the bio neuron:
 * The inputs are analogous to the dendrites
 * the weights model the synapse
